@@ -22,5 +22,5 @@ jobs:
       with:
         node-version: 14.x
         cache: 'npm'
-    - run: npm insall
+    - run: npm install
     - run: npm run test:unit
